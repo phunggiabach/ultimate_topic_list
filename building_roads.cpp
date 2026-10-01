@@ -25,9 +25,7 @@ int main() {
 		adj[x].push_back(y);
 		adj[y].push_back(x);
 	}
-	
-//	int cnt = 0;
-	
+
 	dfs(1);
 	
 	for (int i = 2; i <= n; i++) {
